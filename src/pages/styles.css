@@ -1,0 +1,233 @@
+body,
+html {
+  font-family: "Poetsen One";
+}
+
+.nav-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 75px;
+  background-color: #8b93ff;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 100px;
+}
+
+.nav-links-container a {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+.nav-links-container a:after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s ease;
+}
+a:hover:after {
+  width: 100%;
+}
+.content {
+  padding-top: 85px;
+}
+.me-container {
+  position: relative;
+  z-index: 1;
+}
+.me-container p {
+  font-family: "poppins";
+  line-height: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #212529;
+  margin-top: 10px;
+}
+.me-container h1 {
+  font-size: 2.5rem;
+}
+.me-container span {
+  color: #8b93ff;
+}
+.me-container .projects {
+  background-color: #dfdfdf;
+  color: #000;
+  font-weight: 700;
+}
+.profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+  background-color: #ffffff7a;
+  object-position: center;
+  object-fit: cover;
+}
+/* ABout  section */
+.About-container {
+  padding: 0 70px !important;
+}
+.about-img-container {
+  padding: 3%;
+}
+.about-img {
+  border-radius: 8%;
+  box-shadow: 0 4px 18px #0000001a;
+  max-width: 100%;
+}
+.About-container p,
+.work-experience-info p {
+  color: #636363;
+  font-family: poppins;
+  font-size: 1.5rem;
+  margin-top: 2%;
+}
+.about-info-container h1,
+.work-experience-info h1,
+.technology-stack h1 {
+  font-size: 4rem;
+}
+.about-info-container span {
+  color: #8b93ff;
+}
+.work-experience-info h2 {
+  color: #636363;
+  font-size: 2em;
+  font-weight: 200;
+  margin-bottom: 2%;
+  font-family: poppins;
+}
+.work-experience-info h2 span,
+.work-experience-info h1 span {
+  color: #8b93ff;
+  font-weight: 700;
+}
+.technology-stack {
+  padding-left: 5%;
+}
+.technology-stack-cont {
+  width: 96%;
+  height: 600px;
+  border-color: #dfdfdf;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5%;
+  box-shadow: 0 4px 18px wh;
+  padding-top: 1.2rem !important;
+  align-items: center;
+  justify-content: center;
+}
+.stack {
+  width: 240px;
+  height: 150px;
+  background-color: #8b93ff;
+  border-radius: 26%;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.stack-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 2px;
+}
+
+@keyframes example {
+  0% {
+    transform: scale(0.9);
+    transition: ease-in-out;
+  }
+  25% {
+    transform: scale(0.9);
+    transition: ease-in-out;
+  }
+}
+/* project section-----------------------------
+                    ------------------------------------- */
+.project-header {
+  font-size: 4em;
+}
+.project-header span {
+  color: #6f75e8;
+  font-family: poetsen One;
+  font-size: 0.8em;
+}
+
+.project-container {
+  width: 500px;
+  background-color: #f1f2ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 300px;
+  border-radius: 3%;
+}
+.project-image {
+  width: 400px;
+  border-radius: 3%;
+}
+.project-container .button-container button {
+  background-color: #8b93ff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+  width: 150px;
+  margin-right: 8px;
+}
+.project-information h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+  font-family: "Poppins";
+}
+.project-info {
+  font-size: 16px;
+  color: #555;
+  font-family: "Poppins";
+  width: 400px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.slider-button {
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.slider-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.slider-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(72, 180, 97, 0.4);
+}
