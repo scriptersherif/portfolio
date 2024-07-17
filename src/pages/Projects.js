@@ -10,11 +10,11 @@ function Projects() {
   };
 
   const goToNextSlide = () => {
-    setIndex((prevIndex) => (prevIndex + 1) % 2); // Assuming there are 2 slides
+    setIndex((prevIndex) => (prevIndex + 1) % 2); 
   };
 
   const goToPreviousSlide = () => {
-    setIndex((prevIndex) => (prevIndex - 1 + 2) % 2); // Assuming there are 2 slides
+    setIndex((prevIndex) => (prevIndex - 1 + 2) % 2); 
   };
 
   return (
@@ -66,7 +66,7 @@ function Projects() {
               <img src="expenseimg.png" alt="" className="project-image" />
             </div>
             <div className="project-information d-flex flex-column">
-              <h2 className="text-center">Income Expense Tracker</h2>
+              <h2 className="text-center">Budget Buddy</h2>
               <div className="button-container text-center">
                 <a
                   href="https://scriptersherif.github.io/expensetracker/"

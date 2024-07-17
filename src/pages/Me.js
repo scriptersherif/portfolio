@@ -11,7 +11,7 @@ function Me() {
   return (
     <div className="me-container d-flex justify-content-center flex-column align-items-center">
       <img
-        src="pic-0.png"
+        src="IMG_7905.JPG"
         alt="sample"
         className="profile"
         data-aos="flip-left"
@@ -27,11 +27,11 @@ function Me() {
           Working with my hands to make magic happen on the internet. View my
         </p>
         <p>
-          <span className="projects">Projects</span>{" "}
+          <span className="projects">Projects</span>
           <span className="projects">resume</span> contact me or send me an
           email at
         </p>
-        <p>sherifyasin167@gmail.com</p>
+        <p>yasinsherif2003@gmail.com</p>
         <p>Madurai,TamilNadu,India</p>
       </div>
     </div>

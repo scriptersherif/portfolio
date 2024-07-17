@@ -12,6 +12,7 @@ html {
   background-color: #8b93ff;
   width: 100%;
   padding: 0 50px;
+  z-index: 1000;
 }
 
 .nav-links {
@@ -104,6 +105,8 @@ a:hover:after {
 .about-info-container span {
   color: #8b93ff;
 }
+
+/* experience section */
 .work-experience-info h2 {
   color: #636363;
   font-size: 2em;
@@ -179,6 +182,8 @@ a:hover:after {
   padding-top: 50px;
   margin-bottom: 300px;
   border-radius: 3%;
+  position: relative;
+  z-index: 1;
 }
 .project-image {
   width: 400px;
@@ -230,4 +235,130 @@ a:hover:after {
 .slider-button:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(72, 180, 97, 0.4);
+}
+
+/* contact-section */
+/* General styles */
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.contact-info {
+  text-align: left;
+  padding: 20px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  color: #777;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.social-media a {
+  color: #333;
+  margin: 0 10px;
+  font-size: 2em;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #007bff;
+}
+
+.contact-form-container {
+  padding: 20px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form-container h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.success-message {
+  color: green;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  color: #333;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contact-info,
+  .contact-form-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .contact-info h1,
+  .contact-form-container h1 {
+    font-size: 2em;
+  }
+
+  .social-media a {
+    font-size: 1.5em;
+  }
 }

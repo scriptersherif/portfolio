@@ -27,7 +27,9 @@ function About() {
           experience in React.js development, I excel in creating dynamic and
           responsive web applications. My journey as a self-taught developer has
           been filled with challenges, but it has also honed my ability to work
-          end-to-end on frontend development projects.
+          end-to-end on frontend development projects. During my internship
+          training, I learned and gained practical experience in HTML, CSS,
+          JavaScript, Bootstrap, and React.
         </p>
       </div>
     </div>
