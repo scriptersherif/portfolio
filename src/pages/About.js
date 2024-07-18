@@ -11,7 +11,11 @@ function About() {
   return (
     <div className="About-container d-flex justify-content-center align-items-center p-5 mt-5">
       <div className="col-md-6 about-img-container" data-aos="fade-left">
-        <img src="pic-1.png" className="about-img" alt="" />
+        <img
+          src="yasin-front-ai-brush-removebg-naaxaqfo (1).png"
+          className="about-img"
+          alt=""
+        />
       </div>
       <div
         className="col-md-6 about-info-container

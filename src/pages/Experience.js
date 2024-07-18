@@ -11,27 +11,27 @@ function Experience() {
           What I <span>Did ?</span>
         </h2>
         <p>
-          As an Associate React Developer at Risolutor Technology, I created two
-          dynamic websites, including a company website and a product website.
-          Additionally, I developed and maintained an admin management software
-          and contributed to the development of an HRMS software. My role
-          involved designing user interfaces, implementing features, and
-          ensuring the overall functionality and performance of these web
-          applications.
+          As an intern at Amizhth, I created my first websites using HTML and
+          CSS, including two websites for gift shops, and practiced developing
+          various small components. I built projects using JavaScript, such as a
+          amazon front page, a rock paper scissors game, and a to-do app. In
+          React, I developed a to-do app, an expense tracker, and a personal
+          portfolio website. Additionally, I practiced more than 15 small React
+          components to solidify my understanding of the framework.
         </p>
         <h2>
           What I <span>Learned ?</span>
         </h2>
         <p>
-          During my time at Risolutor Technology, I mastered the Agile method of
-          working, significantly improving my project management and team
-          collaboration skills. I gained extensive experience in developing
-          products from scratch, managing end-to-end processes, and enhancing my
-          time management abilities by balancing multiple projects and
-          deadlines. My teamwork capabilities were strengthened through
-          effective collaboration with colleagues, and I developed robust
-          bug-fixing and problem-solving skills, ensuring the delivery of
-          high-quality and reliable software solutions.
+          During my internship at Amizhth, I gained foundational knowledge and
+          hands-on experience in HTML and CSS, focusing on building static
+          websites. My JavaScript skills were enhanced through the creation of
+          interactive and functional applications. I developed a deeper
+          understanding of React, including component-based architecture, state
+          management, and dynamic user interfaces. I improved my problem-solving
+          and debugging skills by tackling various coding challenges and project
+          requirements. I also learned to implement responsive design practices
+          to ensure optimal usability across different devices.
         </p>
       </div>
       <div className="technology-stack col-lg-5 ">
